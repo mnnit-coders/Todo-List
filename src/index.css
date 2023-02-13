@@ -11,3 +11,102 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+.main_div{
+  width:100%;
+ min-height: 100vh; height: auto;
+  background-color: rgb(133, 177, 130);
+  background-color: rgb(144, 191, 232);
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.center_div{
+  width:50%;
+  /* min-height: 80vh; */
+
+  height:80vh;
+  /* height: auto; */
+  background-color: antiquewhite;
+  box-shadow: 5px 5px 25px -5px rbga(0,0,0,0.5);
+  border-radius: 15px;
+  overflow:auto;
+  
+}
+.center_div::-webkit-scrollbar {
+  display: none;
+}
+h1{
+  color:white;
+  background: transparent;
+  background-color: rgb(16, 42, 68);
+  padding:6px 3px 6px 3px;
+  margin-bottom: 10px;
+  box-shadow: 5px 5px 15px -5px rgba(0,0,0,0.3);
+  font-family: cursive;
+}
+input{
+  font-family: cursive;
+  text-align: center;
+  height: 30px;
+  top: 10px;
+  border: none;
+  background: transparent;
+  font-size: 20px;
+  font-weight: 500;
+  width: 60%;
+  border-bottom: 2px solid #0d0c53;
+  outline:none;
+}
+button{
+  min-height:40px;
+  /* height: 40px; */
+  width:40px;
+  border-radius: 50%;
+  background-color: #0d0c53;
+  border-color: transparent;
+  color: white;
+  font-size: 25px;
+  border: none;
+  outline: none;
+  margin-left: 10px;
+  box-shadow: 5px 5px 15px -5px rgba(0,0,0,0.3);
+}
+button:hover{
+  background-color: rgb(185, 89, 204);
+}
+ol{
+  margin-top: 30px;
+}
+ol li{
+  /* padding-left: 300px;
+  m */
+  margin-left: 35%;
+  text-align: left;
+  font-size: 20px;
+  font-weight: 500;
+  min-height: 40px;
+  display: flex;
+  align-items: center;
+  color: #0d0c53;
+  font-family: cursive;
+  text-transform:capitalize;
+  /* background-color: red; */
+}
+.xbutton{
+  width:px;
+  height: 10px;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #0d0c53;
+  /* border-radius: px; */
+  margin: 0px 20px 0 35px;
+  padding: 2px;
+  box-shadow: 5px 5px 15px -5px rgba(0,0,0,0.3);
+}
+.xbutton:hover{
+  background-color: rgb(142, 5, 5);
+}
